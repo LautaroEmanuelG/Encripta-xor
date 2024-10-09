@@ -14,14 +14,13 @@ class Encriptxor {
     }
 
     // Retornamos el mensaje encriptado en formato base64 para que sea legible y portable
-    return Buffer.from(encryptedText).toString('base64');
+    return btoa(encryptedText); // Use btoa for base64 encoding
   }
 
   // Función para desencriptar
   desencriptar(encryptedText: string, key: string): string {
     // Convertimos el texto encriptado desde base64 de vuelta a su forma original
-    const encryptedBuffer = Buffer.from(encryptedText, 'base64');
-    const encryptedChars = encryptedBuffer.toString().split('');
+    const encryptedChars = atob(encryptedText).split(''); // Use atob for base64 decoding
     const keyChars = key.split('');
     let decryptedText = '';
 
