@@ -36,3 +36,5 @@ class Encriptxor {
     return decryptedText;
   }
 }
+
+export default Encriptxor;
