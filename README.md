@@ -7,7 +7,7 @@
 Puedes instalar la librería a través de npm:
 
 ```bash
-npm install encrypt-xor
+npm install encrypta-xor
 ```
 
 ## 🚀 Uso
@@ -17,13 +17,13 @@ Aquí tienes un ejemplo básico de cómo usar Encrypt-Xor para encriptar y desen
 ```typescript
 Copiar código
 // Importar la clase
-import Encriptxor from 'encrypt-xor';
+import Encriptaxor from 'encrypta-xor';
 
 // Definir una clave compartida
 const key = 'PalabraClave';
 
-// Crear una instancia de la clase Encriptxor
-const encriptador = new Encriptxor();
+// Crear una instancia de la clase Encriptaxor
+const encriptador = new Encriptaxor();
 
 // Texto a encriptar
 const mensaje = 'Mensaje que deseo encriptar';
