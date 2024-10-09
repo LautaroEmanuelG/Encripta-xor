@@ -1,12 +1,12 @@
 {
   "name": "encripta-xor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "**Encrypt-Xor** es una pequeña librería de encriptación basada en el operador XOR y codificación Base64. Utiliza encriptación simétrica y está diseñada para proyectos simples que requieran encriptación y desencriptación rápida y fácil con una clave compartida. Esta librería está escrita en TypeScript y puede ser utilizada en cualquier proyecto JavaScript o TypeScript.",
   "main": "./dist/Encriptador.js",
   "module": "./dist/Encriptador.mjs",
   "types": "./dist/Encriptador.d.ts",
   "repository": {
-    "url":"https://github.com/LautaroEmanuelG/Encripta-xor"
+    "url": "https://github.com/LautaroEmanuelG/Encripta-xor"
   },
   "scripts": {
     "build": "tsup"
