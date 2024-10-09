@@ -36,14 +36,3 @@ class Encriptxor {
     return decryptedText;
   }
 }
-
-// Uso:
-const key = 'juan'; // Clave compartida
-const encriptador = new Encriptxor();
-
-const mensaje = 'Juan tiene un perro que se llama juan1231 LLLL #$%""###';
-const mensajeEncriptado = encriptador.encriptar(mensaje, key);
-console.log('Mensaje encriptado:', mensajeEncriptado);
-
-const mensajeOriginal = encriptador.desencriptar(mensajeEncriptado, key);
-console.log('Mensaje desencriptado:', mensajeOriginal);

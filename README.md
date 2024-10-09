@@ -20,7 +20,7 @@ Copiar código
 import Encriptxor from 'encrypt-xor';
 
 // Definir una clave compartida
-const key = 'PalbraClave';
+const key = 'PalabraClave';
 
 // Crear una instancia de la clase Encriptxor
 const encriptador = new Encriptxor();
